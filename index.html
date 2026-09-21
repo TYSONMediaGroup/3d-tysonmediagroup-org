@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+  <title>TYSON 3D</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
+  <script src="lib/three.min.js"></script>
+  <script>
+    if (typeof THREE === 'undefined') {
+      document.write('<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"><\\/script>');
+    }
+  </script>
+</head>
+<body>
+  <!-- T5S Project Background Splash (2 seconds) -->
+  <div id="t5s-splash"></div>
+
+  <!-- 3D Canvas -->
+  <canvas id="gameCanvas"></canvas>
+
+  <!-- Controls & Prompt -->
+  <div id="ui">
+    <div id="prompt">Press <b>E</b> to Drive</div>
+    <div id="controls">WASD / Arrows to Move &bull; Space to Jump &bull; E to Drive Car</div>
+  </div>
+
+  <!-- TYSON Media Group Banner Logo (Bottom Right) -->
+  <img id="tyson-banner" src="TYSONMediaGroupBanner.png" alt="TYSON Media Group">
+
+  <script src="game.js"></script>
+</body>
+</html>
