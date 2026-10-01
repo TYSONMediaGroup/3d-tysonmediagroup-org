@@ -1,8 +1,25 @@
-# 3d-tysonmediagroup-org
+<p align="center">
+  <a href="https://tysonmediagroup.org">
+    <img src="https://raw.githubusercontent.com/TYSONMediaGroup/tysonmediagroup.org.myt5s.app/main/assets/LOGOSFORGEMINI/TYSONMediaGroupBanner.png" alt="TYSON Media Group" width="700">
+  </a>
+</p>
 
-![T5S Project Background](t5s-project-background.png)
+<h1 align="center">3D TYSON Media Group</h1>
 
-3D Experience for **TYSON Media Group** ([3d.tysonmediagroup.org](https://3d.tysonmediagroup.org)).
+<p align="center">
+  <a href="https://threejs.org"><img src="https://img.shields.io/badge/Three.js-WebGL-black?logo=threedotjs&logoColor=white" alt="Three.js"></a>
+  <a href="https://pages.cloudflare.com"><img src="https://img.shields.io/badge/Cloudflare-Pages-F38020?logo=cloudflare&logoColor=white" alt="Cloudflare Pages"></a>
+  <a href="https://3d.tysonmediagroup.org"><img src="https://img.shields.io/badge/Live%20Demo-3d.tysonmediagroup.org-007ACC" alt="Live Demo"></a>
+  <a href="https://tysonmediagroup.org"><img src="https://img.shields.io/badge/TYSON-Media%20Group-007ACC" alt="TYSON Media Group"></a>
+</p>
+
+Interactive 3D Experience for **TYSON Media Group** ([3d.tysonmediagroup.org](https://3d.tysonmediagroup.org)).
+
+<p align="center">
+  <img src="t5s-project-background.png" alt="T5S Project Background" width="700">
+</p>
+
+---
 
 ## Features
 
@@ -12,11 +29,15 @@
 - **Atmosphere & Typography**: Beautiful Cormorant Garamond serif typography with gradual black transparent gradient.
 - **T5S Splash Intro**: Signature 2-second project splash screen.
 
+---
+
 ## Controls
 
 - `W` / `A` / `S` / `D` or `Arrow Keys`: Move / Steer
 - `Space`: Jump
 - `E`: Enter / Exit Car
+
+---
 
 ## Development & Deployment
 
